@@ -15,7 +15,7 @@ body {
     color: #303030;
 }
 
-h2 {
+h2, h3 {
     margin: 0;
 }
 
@@ -47,6 +47,30 @@ hr {
 
 .s-padding {
     padding: 0 40px;
+}
+
+.subtitle {
+    font-family: 'GothamBold';
+    font-size: 30px;
+    font-weight: normal;
+    color: #303030;
+}
+
+.desc {
+    font-family: 'Georgia-Italic';
+    color: #5a5a5a;
+}
+
+.c-desc {
+    max-width: 540px;
+    margin: auto;
+    font-family: 'ProximaNovaReg';
+}
+
+[placeholder] {
+    padding: 10px;
+    font-family: 'Georgia-Italic';
+    font-size: 16px;
 }
 
 /* ----- common styles ----- */
@@ -82,7 +106,7 @@ hr {
 /* ----- nav-bar styles ----- */
 
 
-/* -----header section styles ----- */
+/* ----- header section styles ----- */
 
 .header-section {
     background-image: url('/img/header-section-bg.png');
@@ -99,11 +123,6 @@ hr {
     font-family: 'GothamBold';
     font-weight: normal;
     line-height: 120%;;
-}
-
-.desc {
-    font-family: 'Georgia-Italic';
-    color: #5a5a5a;
 }
 
 .arrow-wrap {
@@ -130,30 +149,21 @@ hr {
     border-radius: 50%;
 }
 
-/* -----header section styles ----- */
+.tm-cont-underline {
+    max-width: 180px;
+}
+
+/* ----- header section styles ----- */
 
 
-/* -----work section styles ----- */
+/* ----- work section styles ----- */
 
 .c-work {
     padding: 50px 0 20px 0;
 }
 
-.subtitle {
-    font-family: 'GothamBold';
-    font-size: 30px;
-    font-weight: normal;
-    color: #303030;
-}
-
 .c-work-underline {
-    width: 240px;
-}
-
-.c-work-desc {
-    max-width: 540px;
-    margin: auto;
-    font-family: 'ProximaNovaReg';
+    max-width: 240px;
 }
 
 .c-work-grid {
@@ -182,4 +192,149 @@ hr {
     transform: scale(1.1)
 }
 
-/* -----work section styles ----- */
+/* ----- work section styles ----- */
+
+
+/* ----- team section styles ----- */
+
+.team {
+    background-color: #f3f3f3;
+}
+
+.c-team {
+    padding: 50px 0 80px;
+}
+
+.team-cards {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 210px));
+    justify-content: center;
+    grid-column-gap: 2%;
+    grid-row-gap: 30px;
+    margin-top: 60px;
+}
+
+.team-card {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px #a7a7a7;
+}
+
+.team-photo {
+    margin-top: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px #303030;
+}
+
+.team-name {
+    margin: 14px 0 13px;
+    font-family: 'GothamBold';
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.team-position {
+    font-family: 'Georgia-Italic';
+    font-size: 14px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.socials-link {
+    color: #7f7f7f;
+}
+
+/* ----- team section styles ----- */
+
+
+/* ----- contact section styles ----- */
+
+.c-contact {
+    padding: 50px 0;
+}
+
+.map-form {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    text-align: left;
+}
+
+.map {
+    box-sizing: border-box;
+    width: 320px;
+    height: 320px;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 3px #303030;
+}
+
+.form {
+    display: grid;
+    grid-gap: 20px;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+    max-height: 320px;
+    height: 100%;
+}
+
+.form-column {
+    margin-left: 20px;
+}
+
+.form-textarea {
+    box-sizing: border-box;
+    width: 100%;
+    grid-column: 1 / span 10;
+    grid-row: 1 / span 8;
+    background-color: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+}
+
+.form-email {
+    grid-column: 1 / span 7;
+    grid-row: 9 / span 2;
+    background-color: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+}
+
+.btn {
+    grid-column: 8 / span 3;
+    grid-row: 9 / span 2;
+    font-family: 'GothamBold';
+    color: #ffffff;
+    background-color: #6995a9;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 2px #2b2b2b;
+}
+
+.fa-upload {
+    margin-right: 7px;
+}
+
+/* ----- contact section styles ----- */
+
+
+/* ----- footer section styles ----- */
+
+.footer {
+    background-color: #4f4f4f;
+}
+
+.c-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    color: #6e6e6e;
+}
+
+.footer-strong {
+    color: #949494;
+}
+
+/* ----- footer section styles ----- */
