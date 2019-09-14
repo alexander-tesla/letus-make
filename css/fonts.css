@@ -1,24 +1,24 @@
 @font-face {
     font-family: Georgia-Italic;
-    src: url('/fonts/georgia\ italic.ttf');
+    src: url('../fonts/georgia\ italic.ttf');
 }
 
 @font-face {
     font-family: GothamBold;
-    src: url('/fonts/GothamBold.ttf');
+    src: url('../fonts/GothamBold.ttf');
 }
 
 @font-face {
     font-family: GothamMedium;
-    src: url('/fonts/GothamMedium.ttf');
+    src: url('../fonts/GothamMedium.ttf');
 }
 
 @font-face {
     font-family: ProximaNovaReg;
-    src: url('/fonts/ProximaNova-Regular.otf');
+    src: url('../fonts/ProximaNova-Regular.otf');
 }
 
 @font-face {
     font-family: GothamBook;
-    src: url('/fonts/GothamBook.ttf');
+    src: url('../fonts/GothamBook.ttf');
 }
